@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gameboy"
+version = "0.1.0"
+description = ""
+authors = ["Anthony V <anthonyviriya98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.3.1"
+coverage = "^7.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
